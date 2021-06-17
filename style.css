@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Black+Han+san");
+body{
+    /*background-color: #3D85C6;
+    color: rgba(0, 0, 0, .8);
+    height: 95vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;*/
+}
+
+.font{
+    font-family: 'Black Han Sans', ariel, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: style;
+}
+form{
+    width: 100%;
+}
+
+/*to change the width of the input*/
+/* input{
+    width: 100%;
+} */
+
+/*to resize the button size of the text area*/
+textarea{
+    resize: vertical;
+
+    /*but because we dont want to set it to infinitely vertical*/
+    max-height: 100px;
+}
+
+/*to remove the border in the text area*/
+input, textarea{
+    outline: none;
+
+    border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+input focus, textarea :focus{
+    box-shadow: 0 0 4px rgba(255, 0, 0, 0.5);
+
+    border: 1px solid rgb(255, 0, 0,);
+}
+
+
+/*styling everything that has a placeholder*/
+::placeholder{
+    color: black;
+    opacity: 1; /*this makes the style looks the same in any browser that may be used to view it*/
+}
+/*for other browsers like ms edge etc*/
+:-ms-input-placeholder{
+    color: black;
+    opacity: 1;
+}
+
+::-ms-input-placeholder{
+    color: black;
+    opacity: 1;
+}
+    /*to effect changes on the radio button*/
+/* form input[type="radio"] {
+    
+    width: 20px;
+    
+    margin-right: 10px;
+} */
+
+form input[type="text"]{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+
+
+}
+
+
+/* access the form element using id */
+#reg-form{
+    width: 80%;
+    margin: 20px auto;
+}
+
+label{
+    font-weight: bold;
+    font-size: large;
+    
+    
+    
+}
+
+.form-input-row{
+    margin-bottom: 20px;
+    
+    
+}
